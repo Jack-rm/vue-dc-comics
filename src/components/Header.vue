@@ -89,32 +89,33 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  overflow-x: hidden;
 
-img {
-  height: 100px;
-}
-
-ul{
-  display: flex;
-  list-style: none;
-}
-
-ul li{
-  padding-top: 65px;
-  padding-bottom: 65px;
-  margin-left: 40px;
-  border-bottom: 6px solid transparent;
-
-  &.active:hover{
-  border-bottom: 6px solid $borderBottomActiveColor;
+  & img {
+    height: 100px;
   }
-}
 
-li a{
-  color: $darkerGrey;
-  text-decoration: none;
-  text-transform: uppercase;
+  & ul{
+    display: flex;
+    list-style: none;
+  }
+
+  & ul li{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 30px;
+    border-bottom: 6px solid transparent;
+
+    &.active:hover{
+    border-bottom: 6px solid $borderBottomActiveColor;
+    }
+  }
+
+    & li a{
+    color: $darkerGrey;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
 
 </style>

@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Main />
+    <Features />
     <Footer />
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import Features from './components/Features.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     Header,
     Main,
+    Features,
     Footer
   }
 }

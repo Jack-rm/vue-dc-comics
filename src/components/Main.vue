@@ -7,12 +7,6 @@
           <h3> --- Content goes here --- </h3>
         </div>
       </section>
-      
-      <section class="my_features-section">
-        <div class="my_features">
-          <h3> --- Features go here --- </h3>
-        </div>
-      </section>
 
     </main>
   </div>
@@ -33,18 +27,8 @@ main .my_content-section{
   padding: 50px 0px;
 }
 
-main .my_features-section{
-  background-color: $borderBottomActiveColor;
-  padding: 50px 0px;
-}
-
 .my_content{
     padding: 0px 250px;
-    color: white;
-}
-
-.my_features{
-    margin: 0px 250px;
     color: white;
 }
 
