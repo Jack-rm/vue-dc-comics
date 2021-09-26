@@ -5,7 +5,7 @@
       <nav>
         <ul>
           <li v-for="(link, index) in links" :key="index" :class="{ active : link.current }">
-            <a href="#">{{ link.text }}</a>
+            <a href="#" :class="{ active : link.current }">{{ link.text }}</a>
           </li>
         </ul>
       </nav>
@@ -115,6 +115,10 @@ header {
     color: $darkerGrey;
     text-decoration: none;
     text-transform: uppercase;
+
+    &.active:hover{
+      color: $borderBottomActiveColor;
+    }
   }
 }
 

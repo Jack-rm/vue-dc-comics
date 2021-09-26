@@ -35,15 +35,39 @@
     <div class="my_footer-end">
       <div class="my_footer-wrapper">
 
-        <button>bottone</button>
+        <button class="my_btn">ign-up now!</button>
         
-        <div>
-          <p>Follow us</p>
-          <p>facebook</p>
-          <p>twitter</p>
-          <p>yt</p>
-          <p>pinterest</p>
-          <p>localizzazione</p>
+        <div class="my_footer-socials">
+          <ul>
+            <li>
+              <span>Follow Us</span>
+              </li>
+            <li>
+              <a href="#">
+                <img src="../assets/img/footer-facebook.png" alt="logo di Facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../assets/img/footer-twitter.png" alt="logo di Twitter">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../assets/img/footer-youtube.png" alt="logo di YouTube">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../assets/img/footer-pinterest.png" alt="logo di Pinterest">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../assets/img/footer-periscope.png" alt="Periscope">
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -223,7 +247,7 @@ export default {
   background-size: 500px 500px;
   background-repeat: no-repeat;
   width: 500px;
-  height: 350px;
+  height: 353px;
 }
 
 .my_footer-end{
@@ -260,6 +284,48 @@ export default {
     color: $lighterGrey;
     font-size: 0.9em;
     text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.my_footer-socials{
+  
+  padding: 15px 0px;
+
+  & span{
+    text-transform: uppercase;
+    color: $borderBottomActiveColor;
+    font-weight: bold;
+  }
+  
+  & ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  & ul li{
+    padding: 10px;
+  }
+
+  & ul li a img{
+    height: 2em;
+  }
+
+}
+
+.my_btn{
+  color: white;
+  background-color: $myGrey;
+  border: 2px solid $borderBottomActiveColor;
+  text-transform: uppercase;
+  padding: 7px;
+
+  &:hover{
+    background-color: $borderBottomActiveColor;
   }
 }
 
