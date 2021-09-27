@@ -101,8 +101,8 @@ header {
   }
 
   & ul li{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-left: 30px;
     border-bottom: 6px solid transparent;
 

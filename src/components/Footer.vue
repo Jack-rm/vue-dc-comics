@@ -35,7 +35,7 @@
     <div class="my_footer-end">
       <div class="my_footer-wrapper">
 
-        <button class="my_btn">ign-up now!</button>
+        <button class="my_btn-dark">ign-up now!</button>
         
         <div class="my_footer-socials">
           <ul>
@@ -317,7 +317,7 @@ export default {
 
 }
 
-.my_btn{
+.my_btn-dark{
   color: white;
   background-color: $myGrey;
   border: 2px solid $borderBottomActiveColor;
